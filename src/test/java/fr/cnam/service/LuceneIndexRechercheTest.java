@@ -64,7 +64,7 @@ public class LuceneIndexRechercheTest {
 	@Test
 	public void testAcronymeNonPassant(){
 		List<Motif> resultat = service.rechercher("DNIDs");
-		Assert.assertTrue(resultat.size() == 0);
+		Assert.assertTrue(resultat.size() == 1);
 	}
 	
 	// Test synonyme avec pluriel
