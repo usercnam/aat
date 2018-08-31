@@ -39,7 +39,7 @@
 		</dependency>
 
 		<!-- Need this to compile JSP, 
-			tomcat-embed-jasper version is not working, no idea why -->
+			tomcat-embed-jasper version is not working, no idea why. -->
 		<dependency>
 			<groupId>org.eclipse.jdt.core.compiler</groupId>
 			<artifactId>ecj</artifactId>
